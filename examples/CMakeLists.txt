@@ -20,6 +20,7 @@ cmake_minimum_required(VERSION 2.8)
 # create a list of libraries needed for this project
 set (REQUIRED_CISST_LIBRARIES
      cisstCommon
+	 cisstCommonXML
      cisstOSAbstraction
      cisstVector
      cisstMultiTask
